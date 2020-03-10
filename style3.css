@@ -1,0 +1,27 @@
+body{
+    background-image:url("image.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    font-family:sans-serif;
+    font-size:20px;
+    
+}
+.new{
+    height:450px;
+}
+.container{
+    background-color:black;
+}
+.container.row{
+    display:table;
+}
+.container .row .column{
+    display: table-cell;
+    padding:40px;
+    text-align: justify;
+}
+.container .row .column p{
+    color: blanchedalmond;
+
+}
